@@ -8,7 +8,7 @@ with open("README.md", encoding="utf-8") as readme_file:
     README = readme_file.read()
 
 cwd = os.path.dirname(os.path.abspath(__file__))
-with open(os.path.join(cwd, "matcha", "VERSION")) as fin:
+with open(os.path.join(cwd, "cosyvoice", "VERSION")) as fin:
     version = fin.read().strip()
 
 setup(
