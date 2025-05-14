@@ -22,7 +22,7 @@ clean:
 
 # 安装打包工具（仅需一次）
 init:
-	$(PYTHON) -m pip install --upgrade pip setuptools wheel build numpy
+	$(PYTHON) -m pip install --upgrade pip setuptools wheel build
 
 # 打包为 .whl 文件
 build: clean
