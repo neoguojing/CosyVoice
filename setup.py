@@ -2,7 +2,6 @@
 import os
 
 import numpy
-from Cython.Build import cythonize
 from setuptools import Extension, find_packages, setup
 
 with open("README.md", encoding="utf-8") as readme_file:
