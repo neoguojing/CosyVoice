@@ -2,7 +2,7 @@
 # --extra-index-url https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/onnxruntime-cuda-12/pypi/simple/ # https://github.com/microsoft/onnxruntime/issues/21684
 conformer==0.3.2
 deepspeed==0.14.2; sys_platform == 'linux'
-diffusers>=0.29.0
+diffusers==0.29.0
 fastapi==0.115.6
 fastapi-cli==0.0.4
 gdown==5.1.0
@@ -38,3 +38,13 @@ transformers>=4.40.1
 uvicorn>=0.30.0
 WeTextProcessing==1.0.3
 wget==3.2
+huggingface-hub==0.25.2
+
+# 激进版本
+#####################################
+transformers==4.51.3
+wrapt==1.17.2
+huggingface-hub==0.31.4
+deepspeed==0.16.7
+torch==2.6.0
+torchaudio==2.6.0
