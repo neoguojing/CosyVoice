@@ -15,7 +15,6 @@ librosa==0.10.1
 lightning==2.2.4
 matplotlib==3.7.5
 modelscope==1.20.0
-networkx==3.1
 omegaconf==2.3.0
 onnx==1.16.0
 onnxruntime-gpu==1.18.0; sys_platform == 'linux'
@@ -44,9 +43,10 @@ huggingface-hub==0.31.4
 deepspeed==0.16.7; sys_platform == 'linux'
 torch==2.6.0
 torchaudio==2.6.0
-
+networkx
 # torch>=2.3.1
 # torchaudio>=2.3.1
 # transformers>=4.40.1
 # deepspeed==0.14.2; sys_platform == 'linux'
 # huggingface-hub==0.25.2
+# networkx==3.1
