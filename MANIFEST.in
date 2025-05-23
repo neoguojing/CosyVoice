@@ -2,4 +2,8 @@ include README.md
 include LICENSE
 include requirements.txt
 include cosyvoice/VERSION
-recursive-include cosyvoice *
+recursive-include cosyvoice/tokenizer/assets *
+
+
+
+

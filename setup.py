@@ -22,8 +22,9 @@ setup(
     url="https://github.com/neoguojing/CosyVoice",
     install_requires=[str(r) for r in open(os.path.join(os.path.dirname(__file__), "requirements.txt"))],
     include_dirs=[numpy.get_include()],
+    # packages=find_packages(exclude=["tools", "tools/*", "third_party", "third_party/*","docker","docker/*","examples","examples/*"]),
+    packages=find_packages(include=["cosyvoice", "cosyvoice.*"]),
     include_package_data=True,
-    packages=find_packages(exclude=["tools", "tools/*", "third_party", "third_party/*","asset","asset/*","docker","docker/*","examples","examples/*"]),
     # use this to customize global commands available in the terminal after installing the package
     # entry_points={
     #     "console_scripts": [
